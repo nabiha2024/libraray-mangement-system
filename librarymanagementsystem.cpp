@@ -9,7 +9,8 @@ struct book{
     string author;             // Author of the book
     int booksborrowed = 0;     // Number of books borrowed
 };
-// Function to add a new book to the library or increase the count if already present
+                                  
+								// Function to add a new book to the library or increase the count if already present
 void addbook(book bookarray[10]){
     string nameofbook;
     cout << "ADDING A BOOK" << endl;
